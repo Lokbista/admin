@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+</head>
+<link rel="stylesheet" type ="text/css" href="../css/bootstrap.min.css">
+<body>
+<div class="container">
+	<div class ='row justify-content-center'>
+		<div class="col-xl-8 col-md-6 col-12">
+			<div class="tab-content">
+				<div class ="tab-pan active" id ="login" role="tabpan1">
+					<div class="card">
+						<div class="card-block pt-5">
+							<h4 class="card-title text-center text-uppercase text-warning">Register</h4>
+							<p class="cart-text text-centre text-muted">
+							<small>Please fill your information</small>
+							</p>
+							<form action="">
+								<fieldset class="form-group">
+								<label for ="loginEmail">Email Address</label>
+								<input class ="form-control" type="email" placeholder="enter email" id="loginEmail">
+								</fieldset>
+								<fieldset class="form-group">
+								<label for ="password">Password</label>
+								<div class="input-group">
+								<input class ="form-control" type="password" placeholder="enter password" id="password" data-contener="body" data-toggle="popover" title="Password Requirement" data-placement="left" data-content="Password must contain at least 1 number">
+								<span class="input-group-btn">
+									<button class="btn btn-seconday" type="button" data-toggle="toolpit" data-placement="right" title="This will show your password">Show</button>
+								</span>
+								</div>
+								</fieldset>
+								<fieldset class="form-group">
+									<label for ="enabled">Please Select</label>
+									<select class="form-control" id="enabled">
+										<option value="Yes">Yes</option>
+										<option value="No">No</option>
+									</select>
+								</fieldset>
+								
+								<button type="button" class="btn btn-warning btn-block">Register</button>
+							</form>
+							<div class="card-footer text-muted text-center">
+							Already have an account?
+							<a data-toggle="tab" href="file:///C:/workspace-maven/pp/pp-admin/WebContent/pp/html/login.html" role="tab" class="text-success">Login!</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="../js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+</script>
+</body>
+
+</html>
